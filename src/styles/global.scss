@@ -9,4 +9,67 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  background-color: #101112;
+  color: #fff;
+}
+.videocard__navbar {
+  display: flex;
+  padding: 1em 3em;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1d1d21;
+  width: 100%;
+}
+.videocard__bar {
+  display: flex;
+  padding: 0.7em;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #10141a;
+  border-radius: 18px;
+}
+.videocard__button__nd__profile {
+  display: flex;
+}
+.videocard__navbar__profile {
+  margin-left: 1em;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.videocard__navbar__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.videocard__navbar__button button {
+  display: flex;
+  background-color: #f2435e;
+  border: none;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.videocard__navbar__button__svg {
+  margin-right: 0.5em;
+}
+.playervideo video {
+  width: 75%;
+  margin: 1em;
+}
+.playvideo__chat__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 1em;
+  background-color: #1d1d21;
+  width: 20%;
+}
+.playvideo__chat__bar__title {
+  font-weight: bold;
 }
