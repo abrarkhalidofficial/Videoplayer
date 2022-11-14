@@ -150,7 +150,7 @@ export default function Header() {
         </div>
         <div className="playvideo__chat">
           <div className="playvideo__chat__bar">
-            <div className="playvideo__chat__bar___openicon">>></div>
+            <div className="playvideo__chat__bar___openicon">X</div>
 
             <div className="playvideo__chat__bar__title">Chat</div>
             <div className="playvideo__chat__bar__icon">
