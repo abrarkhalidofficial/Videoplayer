@@ -1,11 +1,17 @@
 import React from "react";
 import profile from "../assets/profile.png";
+import videocardimg from "../assets/videocard.png";
+import videocardimg1 from "../assets/videocard1.png";
+import videocardimg2 from "../assets/videocard2.png";
+import videocardimg3 from "../assets/videocard3.png";
+import gems from "../assets/gems.png";
 
 export default function Header() {
   return (
     <>
       <div className="videocard__navbar">
         <div className="videocard__logo">LOGO</div>
+
         <div className="videocard__bar">
           <div className="videocard__bar__search">
             <svg
@@ -47,11 +53,13 @@ export default function Header() {
                 />
               </g>
             </svg>
-          </div>
-          <div className="videocard__text">
-            Search videos, livestreams, users...
-          </div>
-          <div className="videocard__icon">
+            <input
+              className="videocard__text"
+              type="search"
+              name="Search"
+              id="serch "
+              placeholder=" Search videos, livestreams, users..."
+            />
             <svg
               id="Settings"
               xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +149,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="playervideo___and__chat">
+      <section className="playervideo___and__chat">
         <div class="playervideo">
           <video controls>
             <source src="video/sintel-short.mp4" type="video/mp4" />
@@ -151,7 +159,6 @@ export default function Header() {
         <div className="playvideo__chat">
           <div className="playvideo__chat__bar">
             <div className="playvideo__chat__bar___openicon">X</div>
-
             <div className="playvideo__chat__bar__title">Chat</div>
             <div className="playvideo__chat__bar__icon">
               <svg
@@ -194,8 +201,173 @@ export default function Header() {
               </svg>
             </div>
           </div>
+          <div className="playvideo__chat__msg__ad">
+            <div className="playvideo__chat__msg__ad__img">
+              <img src={gems} alt="gems" />
+            </div>
+            <div className="playvideo__chat__msg__ad__text">
+              3,500 gems <br />
+              ComicSanders
+            </div>
+            <button className="playvideo__chat__msg__ad__button">
+              Buy Gems
+            </button>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section className="videocard">
+        <div className="videocard__all__content">
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg1} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg2} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg3} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+        </div>
+        <div className="videocard__all__content">
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg1} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg2} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg3} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+        </div>
+        <div className="videocard__all__content">
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg1} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg2} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg3} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+        </div>
+        <div className="videocard__all__content">
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg1} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg2} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg3} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+        </div>
+        <div className="videocard__all__content">
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg1} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg2} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+          <div className="videocard__content">
+            <div className="videocard__img">
+              <img src={videocardimg3} alt="videocardimg" />
+            </div>
+            <div className="videocard__heading">Lottie Prototyping Hack</div>
+            <div className="videocard__description">Howard Pinsky</div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
