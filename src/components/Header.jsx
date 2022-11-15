@@ -5,6 +5,9 @@ import videocardimg1 from "../assets/videocard1.png";
 import videocardimg2 from "../assets/videocard2.png";
 import videocardimg3 from "../assets/videocard3.png";
 import gems from "../assets/gems.png";
+import User1 from "../assets/User1.png";
+import User2 from "../assets/User2.png";
+import User3 from "../assets/User3.png";
 
 export default function Header() {
   return (
@@ -212,6 +215,62 @@ export default function Header() {
             <button className="playvideo__chat__msg__ad__button">
               Buy Gems
             </button>
+          </div>
+          <div className="playvideo__chat__msg">
+            <div className="playvideo__chat__msg__profile">
+              <img src={User1} alt="User" />
+            </div>
+            <div className="playvideo__chat__msg__text">
+              <span> Clara</span> Let’s do this!!
+            </div>
+          </div>
+          <div className="playvideo__chat__msg">
+            <div className="playvideo__chat__msg__profile">
+              <img src={User2} alt="User" />
+            </div>
+            <div className="playvideo__chat__msg__text">
+              <span>Talin</span> Proudly watching from New York!
+            </div>
+          </div>
+          <div className="playvideo__chat__msg">
+            <div className="playvideo__chat__msg__profile">
+              <img src={User3} alt="User" />
+            </div>
+            <div className="playvideo__chat__msg__text">
+              <span> Larz</span> joan right? So nervous!
+            </div>
+          </div>
+          <div className="playvideo__chat__msg">
+            <div className="playvideo__chat__msg__profile">
+              <img src={User2} alt="User" />
+            </div>
+            <div className="playvideo__chat__msg__text">
+              <span>Talin</span> Proudly watching from New York!
+            </div>
+          </div>
+          <div className="playvideo__chat__msg">
+            <div className="playvideo__chat__msg__profile">
+              <img src={User3} alt="User" />
+            </div>
+            <div className="playvideo__chat__msg__text">
+              <span> Larz</span> joan right? So nervous!
+            </div>
+          </div>
+          <div className="playvideo__chat__msg">
+            <div className="playvideo__chat__msg__profile">
+              <img src={User2} alt="User" />
+            </div>
+            <div className="playvideo__chat__msg__text">
+              <span>Talin</span> Proudly watching from New York!
+            </div>
+          </div>
+          <div className="playvideo__chat__msg">
+            <div className="playvideo__chat__msg__profile">
+              <img src={User3} alt="User" />
+            </div>
+            <div className="playvideo__chat__msg__text">
+              <span> Larz</span> joan right? So nervous!
+            </div>
           </div>
         </div>
       </section>
